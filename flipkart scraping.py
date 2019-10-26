@@ -11,7 +11,7 @@ f.write(headers)
 #website URL
 url= "https://www.flipkart.com/mi-led-smart-tv-4a-pro-108-cm-43-android/product-reviews/itmfbzck4mhggxxg?pid=TVSFBZCKAVGCUCME&page=1"
 
-#here the loop iterates page 1 to 1023
+#here the loop iteratesfrom page 1 to page 1023
 #in each page contain 10 reviews
 #the loop iterates and fetch data in each page and writing to a file
 for i in range(1,1024):
